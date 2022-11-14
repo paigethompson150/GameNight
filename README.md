@@ -27,12 +27,12 @@ GameNight is a social networking app that allows board-game enthusiasts to conne
 
 **Required Must-have Stories**
 
-- [ ] User sees a customized loading screen upon opening app
+- [X] User sees a customized loading screen upon opening app
 - [X] User can create an account and log in
-- [ ] User can create and delete a game session
-- [ ] User can find open games
-- [ ] User can see and edit their profile
-- [ ] User can view other profiles
+- [X] User can create and delete a game session
+- [X] User can find open games
+- [X] User can see and edit their profile
+- [X] User can view other profiles
 
 **Optional Nice-to-have Stories**
 
@@ -45,7 +45,7 @@ GameNight is a social networking app that allows board-game enthusiasts to conne
 
 * Loading Screen
     * GameNight Title
-    * ![](https://i.imgur.com/0uQEev9.png)
+    * <img src="gamenight.png" width=600>
 * Login Screen
    * User is given option to either login or sign up for an account
    * Upon closing the application, the user will stay logged in upon
@@ -264,3 +264,6 @@ GameNight is a social networking app that allows board-game enthusiasts to conne
 ## Week_2 
 
 ![GIF](week_2_progress.gif)
+
+## Week_3 
+* Gif to be added soon!
