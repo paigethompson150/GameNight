@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FC72ED2F6B521D2D979A83B /* Pods_GameNight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5316C1BE1D8193F277329083 /* Pods_GameNight.framework */; };
+		21C56A8029200D8B0084B92A /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C56A7B29200D8B0084B92A /* CategoriesTableViewController.swift */; };
+		21C56A8129200D8B0084B92A /* CategoryGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C56A7C29200D8B0084B92A /* CategoryGridController.swift */; };
+		21C56A8229200D8B0084B92A /* categoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C56A7D29200D8B0084B92A /* categoryData.swift */; };
+		21C56A8329200D8B0084B92A /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C56A7E29200D8B0084B92A /* GameCollectionViewCell.swift */; };
+		21C56A8429200D8B0084B92A /* GameDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C56A7F29200D8B0084B92A /* GameDetailsViewController.swift */; };
+		21C56A952920109D0084B92A /* DetailsGameMeetUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C56A912920109D0084B92A /* DetailsGameMeetUpTableViewCell.swift */; };
+		21C56A962920109D0084B92A /* GameMeetUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C56A922920109D0084B92A /* GameMeetUpTableViewCell.swift */; };
+		21C56A972920109D0084B92A /* DetailsGameMeetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C56A932920109D0084B92A /* DetailsGameMeetUpViewController.swift */; };
+		21C56A982920109D0084B92A /* AddGameSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C56A942920109D0084B92A /* AddGameSessionViewController.swift */; };
+		21F460CC2904728A0032E157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F460CB2904728A0032E157 /* AppDelegate.swift */; };
+		21F460CE2904728A0032E157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F460CD2904728A0032E157 /* SceneDelegate.swift */; };
+		21F460D32904728A0032E157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F460D12904728A0032E157 /* Main.storyboard */; };
+		21F460D52904728C0032E157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F460D42904728C0032E157 /* Assets.xcassets */; };
+		21F460D82904728C0032E157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F460D62904728C0032E157 /* LaunchScreen.storyboard */; };
+		21F460E32904728C0032E157 /* GameNightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F460E22904728C0032E157 /* GameNightTests.swift */; };
+		21F460ED2904728C0032E157 /* GameNightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F460EC2904728C0032E157 /* GameNightUITests.swift */; };
+		21F460EF2904728C0032E157 /* GameNightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F460EE2904728C0032E157 /* GameNightUITestsLaunchTests.swift */; };
+		2808F341290CD1A000BEFFE6 /* RegistrationCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2808F340290CD19F00BEFFE6 /* RegistrationCompleteViewController.swift */; };
+		280C05102916F952007907C5 /* UserEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280C050F2916F952007907C5 /* UserEditProfileViewController.swift */; };
+		282B2651290DB1EB00D183E3 /* ForgotPasswordConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B2650290DB1EA00D183E3 /* ForgotPasswordConfirmationViewController.swift */; };
+		286536B7290DA74B00C4457B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286536B6290DA74B00C4457B /* ForgotPasswordViewController.swift */; };
+		289AD6262907973A006A0980 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD6252907973A006A0980 /* RegistrationViewController.swift */; };
+		28AD23482904BD6000FC37B8 /* GameMeetUpsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD23472904BD6000FC37B8 /* GameMeetUpsViewController.swift */; };
+		28AD234A2904BD7500FC37B8 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD23492904BD7500FC37B8 /* UserProfileViewController.swift */; };
+		28AD234C2904BD8700FC37B8 /* BoardGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD234B2904BD8700FC37B8 /* BoardGamesViewController.swift */; };
+		28AD234E2904BDA400FC37B8 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD234D2904BDA400FC37B8 /* PlayersViewController.swift */; };
+		726C8C3522BFF500C2BFC0C4 /* Pods_GameNight_GameNightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933914C0C247988F33F021C /* Pods_GameNight_GameNightUITests.framework */; };
+		881B009E5A081A346D4E59AA /* Pods_GameNightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C728F093BD75E5695668EF9D /* Pods_GameNightTests.framework */; };
+		CA419105291DC08400C60E73 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA419104291DC08400C60E73 /* PlayerDetailsViewController.swift */; };
+		CABAB4F4291955D500B463A7 /* PlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABAB4F3291955D500B463A7 /* PlayerCollectionViewCell.swift */; };
+		CAE8CBB72905B1F70096521C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8CBB62905B1F70096521C /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21F460DF2904728C0032E157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F460C02904728A0032E157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F460C72904728A0032E157;
+			remoteInfo = GameNight;
+		};
+		21F460E92904728C0032E157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F460C02904728A0032E157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F460C72904728A0032E157;
+			remoteInfo = GameNight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10CCC9C012237495C562B4D4 /* Pods-GameNightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameNightTests.debug.xcconfig"; path = "Target Support Files/Pods-GameNightTests/Pods-GameNightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1909D1F8C429A7780129D5F0 /* Pods-GameNight-GameNightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameNight-GameNightUITests.release.xcconfig"; path = "Target Support Files/Pods-GameNight-GameNightUITests/Pods-GameNight-GameNightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21C56A7B29200D8B0084B92A /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		21C56A7C29200D8B0084B92A /* CategoryGridController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryGridController.swift; sourceTree = "<group>"; };
+		21C56A7D29200D8B0084B92A /* categoryData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = categoryData.swift; sourceTree = "<group>"; };
+		21C56A7E29200D8B0084B92A /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		21C56A7F29200D8B0084B92A /* GameDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDetailsViewController.swift; sourceTree = "<group>"; };
+		21C56A912920109D0084B92A /* DetailsGameMeetUpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsGameMeetUpTableViewCell.swift; sourceTree = "<group>"; };
+		21C56A922920109D0084B92A /* GameMeetUpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMeetUpTableViewCell.swift; sourceTree = "<group>"; };
+		21C56A932920109D0084B92A /* DetailsGameMeetUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsGameMeetUpViewController.swift; sourceTree = "<group>"; };
+		21C56A942920109D0084B92A /* AddGameSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGameSessionViewController.swift; sourceTree = "<group>"; };
+		21F460C82904728A0032E157 /* GameNight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameNight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F460CB2904728A0032E157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21F460CD2904728A0032E157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21F460D22904728A0032E157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21F460D42904728C0032E157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F460D72904728C0032E157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21F460D92904728C0032E157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F460DE2904728C0032E157 /* GameNightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameNightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F460E22904728C0032E157 /* GameNightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNightTests.swift; sourceTree = "<group>"; };
+		21F460E82904728C0032E157 /* GameNightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameNightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F460EC2904728C0032E157 /* GameNightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNightUITests.swift; sourceTree = "<group>"; };
+		21F460EE2904728C0032E157 /* GameNightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2808F340290CD19F00BEFFE6 /* RegistrationCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCompleteViewController.swift; sourceTree = "<group>"; };
+		280C050F2916F952007907C5 /* UserEditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEditProfileViewController.swift; sourceTree = "<group>"; };
+		282B2650290DB1EA00D183E3 /* ForgotPasswordConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordConfirmationViewController.swift; sourceTree = "<group>"; };
+		286536B6290DA74B00C4457B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		289AD6252907973A006A0980 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		28AD23472904BD6000FC37B8 /* GameMeetUpsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMeetUpsViewController.swift; sourceTree = "<group>"; };
+		28AD23492904BD7500FC37B8 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		28AD234B2904BD8700FC37B8 /* BoardGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGamesViewController.swift; sourceTree = "<group>"; };
+		28AD234D2904BDA400FC37B8 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		30FD798A755C38C8FB0AE8F1 /* Pods-GameNight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameNight.release.xcconfig"; path = "Target Support Files/Pods-GameNight/Pods-GameNight.release.xcconfig"; sourceTree = "<group>"; };
+		5140518C3197A9E108B8FA7B /* Pods-GameNightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameNightTests.release.xcconfig"; path = "Target Support Files/Pods-GameNightTests/Pods-GameNightTests.release.xcconfig"; sourceTree = "<group>"; };
+		5316C1BE1D8193F277329083 /* Pods_GameNight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameNight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0389AF88CB9B7CAEF935ADB /* Pods-GameNight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameNight.debug.xcconfig"; path = "Target Support Files/Pods-GameNight/Pods-GameNight.debug.xcconfig"; sourceTree = "<group>"; };
+		C728F093BD75E5695668EF9D /* Pods_GameNightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameNightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA419104291DC08400C60E73 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		CABAB4F3291955D500B463A7 /* PlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		CAE8CBB62905B1F70096521C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F7E4C51AB79274A10C0CDB76 /* Pods-GameNight-GameNightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameNight-GameNightUITests.debug.xcconfig"; path = "Target Support Files/Pods-GameNight-GameNightUITests/Pods-GameNight-GameNightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F933914C0C247988F33F021C /* Pods_GameNight_GameNightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameNight_GameNightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F460C52904728A0032E157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC72ED2F6B521D2D979A83B /* Pods_GameNight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F460DB2904728C0032E157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881B009E5A081A346D4E59AA /* Pods_GameNightTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F460E52904728C0032E157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726C8C3522BFF500C2BFC0C4 /* Pods_GameNight_GameNightUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F460BF2904728A0032E157 = {
+			isa = PBXGroup;
+			children = (
+				21F460CA2904728A0032E157 /* GameNight */,
+				21F460E12904728C0032E157 /* GameNightTests */,
+				21F460EB2904728C0032E157 /* GameNightUITests */,
+				21F460C92904728A0032E157 /* Products */,
+				7C8C822627B48D216E431525 /* Pods */,
+				D6B85587B60D8A5D90C96026 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21F460C92904728A0032E157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F460C82904728A0032E157 /* GameNight.app */,
+				21F460DE2904728C0032E157 /* GameNightTests.xctest */,
+				21F460E82904728C0032E157 /* GameNightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F460CA2904728A0032E157 /* GameNight */ = {
+			isa = PBXGroup;
+			children = (
+				21F460CB2904728A0032E157 /* AppDelegate.swift */,
+				21F460CD2904728A0032E157 /* SceneDelegate.swift */,
+				21F460D12904728A0032E157 /* Main.storyboard */,
+				21F460D62904728C0032E157 /* LaunchScreen.storyboard */,
+				21F460D42904728C0032E157 /* Assets.xcassets */,
+				21F460D92904728C0032E157 /* Info.plist */,
+				21C56A942920109D0084B92A /* AddGameSessionViewController.swift */,
+				21C56A912920109D0084B92A /* DetailsGameMeetUpTableViewCell.swift */,
+				21C56A932920109D0084B92A /* DetailsGameMeetUpViewController.swift */,
+				21C56A922920109D0084B92A /* GameMeetUpTableViewCell.swift */,
+				28AD23472904BD6000FC37B8 /* GameMeetUpsViewController.swift */,
+				28AD234B2904BD8700FC37B8 /* BoardGamesViewController.swift */,
+				289AD6252907973A006A0980 /* RegistrationViewController.swift */,
+				2808F340290CD19F00BEFFE6 /* RegistrationCompleteViewController.swift */,
+				286536B6290DA74B00C4457B /* ForgotPasswordViewController.swift */,
+				282B2650290DB1EA00D183E3 /* ForgotPasswordConfirmationViewController.swift */,
+				CAE8CBB62905B1F70096521C /* LoginViewController.swift */,
+				28AD234D2904BDA400FC37B8 /* PlayersViewController.swift */,
+				CA419104291DC08400C60E73 /* PlayerDetailsViewController.swift */,
+				CABAB4F3291955D500B463A7 /* PlayerCollectionViewCell.swift */,
+				28AD23492904BD7500FC37B8 /* UserProfileViewController.swift */,
+				280C050F2916F952007907C5 /* UserEditProfileViewController.swift */,
+				21C56A7B29200D8B0084B92A /* CategoriesTableViewController.swift */,
+				21C56A7D29200D8B0084B92A /* categoryData.swift */,
+				21C56A7C29200D8B0084B92A /* CategoryGridController.swift */,
+				21C56A7E29200D8B0084B92A /* GameCollectionViewCell.swift */,
+				21C56A7F29200D8B0084B92A /* GameDetailsViewController.swift */,
+			);
+			path = GameNight;
+			sourceTree = "<group>";
+		};
+		21F460E12904728C0032E157 /* GameNightTests */ = {
+			isa = PBXGroup;
+			children = (
+				21F460E22904728C0032E157 /* GameNightTests.swift */,
+			);
+			path = GameNightTests;
+			sourceTree = "<group>";
+		};
+		21F460EB2904728C0032E157 /* GameNightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21F460EC2904728C0032E157 /* GameNightUITests.swift */,
+				21F460EE2904728C0032E157 /* GameNightUITestsLaunchTests.swift */,
+			);
+			path = GameNightUITests;
+			sourceTree = "<group>";
+		};
+		7C8C822627B48D216E431525 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0389AF88CB9B7CAEF935ADB /* Pods-GameNight.debug.xcconfig */,
+				30FD798A755C38C8FB0AE8F1 /* Pods-GameNight.release.xcconfig */,
+				F7E4C51AB79274A10C0CDB76 /* Pods-GameNight-GameNightUITests.debug.xcconfig */,
+				1909D1F8C429A7780129D5F0 /* Pods-GameNight-GameNightUITests.release.xcconfig */,
+				10CCC9C012237495C562B4D4 /* Pods-GameNightTests.debug.xcconfig */,
+				5140518C3197A9E108B8FA7B /* Pods-GameNightTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6B85587B60D8A5D90C96026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5316C1BE1D8193F277329083 /* Pods_GameNight.framework */,
+				F933914C0C247988F33F021C /* Pods_GameNight_GameNightUITests.framework */,
+				C728F093BD75E5695668EF9D /* Pods_GameNightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F460C72904728A0032E157 /* GameNight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F460F22904728C0032E157 /* Build configuration list for PBXNativeTarget "GameNight" */;
+			buildPhases = (
+				7B2DA6F845D6441D9E3FB7FF /* [CP] Check Pods Manifest.lock */,
+				21F460C42904728A0032E157 /* Sources */,
+				21F460C52904728A0032E157 /* Frameworks */,
+				21F460C62904728A0032E157 /* Resources */,
+				BE619608D6EADA3756A6674C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameNight;
+			productName = GameNight;
+			productReference = 21F460C82904728A0032E157 /* GameNight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21F460DD2904728C0032E157 /* GameNightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F460F52904728C0032E157 /* Build configuration list for PBXNativeTarget "GameNightTests" */;
+			buildPhases = (
+				29D8BFDFE8D079CB52E96F7D /* [CP] Check Pods Manifest.lock */,
+				21F460DA2904728C0032E157 /* Sources */,
+				21F460DB2904728C0032E157 /* Frameworks */,
+				21F460DC2904728C0032E157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F460E02904728C0032E157 /* PBXTargetDependency */,
+			);
+			name = GameNightTests;
+			productName = GameNightTests;
+			productReference = 21F460DE2904728C0032E157 /* GameNightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21F460E72904728C0032E157 /* GameNightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F460F82904728C0032E157 /* Build configuration list for PBXNativeTarget "GameNightUITests" */;
+			buildPhases = (
+				87801F39A83F9B9511B68195 /* [CP] Check Pods Manifest.lock */,
+				21F460E42904728C0032E157 /* Sources */,
+				21F460E52904728C0032E157 /* Frameworks */,
+				21F460E62904728C0032E157 /* Resources */,
+				E1702A60DECDF4FA8377EB65 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F460EA2904728C0032E157 /* PBXTargetDependency */,
+			);
+			name = GameNightUITests;
+			productName = GameNightUITests;
+			productReference = 21F460E82904728C0032E157 /* GameNightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F460C02904728A0032E157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					21F460C72904728A0032E157 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					21F460DD2904728C0032E157 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 21F460C72904728A0032E157;
+					};
+					21F460E72904728C0032E157 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 21F460C72904728A0032E157;
+					};
+				};
+			};
+			buildConfigurationList = 21F460C32904728A0032E157 /* Build configuration list for PBXProject "GameNight" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21F460BF2904728A0032E157;
+			productRefGroup = 21F460C92904728A0032E157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F460C72904728A0032E157 /* GameNight */,
+				21F460DD2904728C0032E157 /* GameNightTests */,
+				21F460E72904728C0032E157 /* GameNightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F460C62904728A0032E157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F460D82904728C0032E157 /* LaunchScreen.storyboard in Resources */,
+				21F460D52904728C0032E157 /* Assets.xcassets in Resources */,
+				21F460D32904728A0032E157 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F460DC2904728C0032E157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F460E62904728C0032E157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29D8BFDFE8D079CB52E96F7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameNightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B2DA6F845D6441D9E3FB7FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameNight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87801F39A83F9B9511B68195 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameNight-GameNightUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE619608D6EADA3756A6674C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameNight/Pods-GameNight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameNight/Pods-GameNight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameNight/Pods-GameNight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1702A60DECDF4FA8377EB65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameNight-GameNightUITests/Pods-GameNight-GameNightUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameNight-GameNightUITests/Pods-GameNight-GameNightUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameNight-GameNightUITests/Pods-GameNight-GameNightUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F460C42904728A0032E157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE8CBB72905B1F70096521C /* LoginViewController.swift in Sources */,
+				28AD234E2904BDA400FC37B8 /* PlayersViewController.swift in Sources */,
+				289AD6262907973A006A0980 /* RegistrationViewController.swift in Sources */,
+				282B2651290DB1EB00D183E3 /* ForgotPasswordConfirmationViewController.swift in Sources */,
+				28AD234C2904BD8700FC37B8 /* BoardGamesViewController.swift in Sources */,
+				28AD234A2904BD7500FC37B8 /* UserProfileViewController.swift in Sources */,
+				21C56A982920109D0084B92A /* AddGameSessionViewController.swift in Sources */,
+				21F460CC2904728A0032E157 /* AppDelegate.swift in Sources */,
+				280C05102916F952007907C5 /* UserEditProfileViewController.swift in Sources */,
+				286536B7290DA74B00C4457B /* ForgotPasswordViewController.swift in Sources */,
+				21C56A8429200D8B0084B92A /* GameDetailsViewController.swift in Sources */,
+				21C56A8029200D8B0084B92A /* CategoriesTableViewController.swift in Sources */,
+				2808F341290CD1A000BEFFE6 /* RegistrationCompleteViewController.swift in Sources */,
+				21C56A962920109D0084B92A /* GameMeetUpTableViewCell.swift in Sources */,
+				21C56A8229200D8B0084B92A /* categoryData.swift in Sources */,
+				CA419105291DC08400C60E73 /* PlayerDetailsViewController.swift in Sources */,
+				21C56A972920109D0084B92A /* DetailsGameMeetUpViewController.swift in Sources */,
+				21C56A952920109D0084B92A /* DetailsGameMeetUpTableViewCell.swift in Sources */,
+				28AD23482904BD6000FC37B8 /* GameMeetUpsViewController.swift in Sources */,
+				21C56A8329200D8B0084B92A /* GameCollectionViewCell.swift in Sources */,
+				CABAB4F4291955D500B463A7 /* PlayerCollectionViewCell.swift in Sources */,
+				21F460CE2904728A0032E157 /* SceneDelegate.swift in Sources */,
+				21C56A8129200D8B0084B92A /* CategoryGridController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F460DA2904728C0032E157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F460E32904728C0032E157 /* GameNightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F460E42904728C0032E157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F460ED2904728C0032E157 /* GameNightUITests.swift in Sources */,
+				21F460EF2904728C0032E157 /* GameNightUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21F460E02904728C0032E157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F460C72904728A0032E157 /* GameNight */;
+			targetProxy = 21F460DF2904728C0032E157 /* PBXContainerItemProxy */;
+		};
+		21F460EA2904728C0032E157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F460C72904728A0032E157 /* GameNight */;
+			targetProxy = 21F460E92904728C0032E157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21F460D12904728A0032E157 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F460D22904728A0032E157 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21F460D62904728C0032E157 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F460D72904728C0032E157 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21F460F02904728C0032E157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21F460F12904728C0032E157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21F460F32904728C0032E157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0389AF88CB9B7CAEF935ADB /* Pods-GameNight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GameNight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GameNight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21F460F42904728C0032E157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FD798A755C38C8FB0AE8F1 /* Pods-GameNight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GameNight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GameNight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21F460F62904728C0032E157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CCC9C012237495C562B4D4 /* Pods-GameNightTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GameNightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameNight.app/GameNight";
+			};
+			name = Debug;
+		};
+		21F460F72904728C0032E157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5140518C3197A9E108B8FA7B /* Pods-GameNightTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GameNightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameNight.app/GameNight";
+			};
+			name = Release;
+		};
+		21F460F92904728C0032E157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E4C51AB79274A10C0CDB76 /* Pods-GameNight-GameNightUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GameNightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GameNight;
+			};
+			name = Debug;
+		};
+		21F460FA2904728C0032E157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1909D1F8C429A7780129D5F0 /* Pods-GameNight-GameNightUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GameNightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GameNight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F460C32904728A0032E157 /* Build configuration list for PBXProject "GameNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F460F02904728C0032E157 /* Debug */,
+				21F460F12904728C0032E157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F460F22904728C0032E157 /* Build configuration list for PBXNativeTarget "GameNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F460F32904728C0032E157 /* Debug */,
+				21F460F42904728C0032E157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F460F52904728C0032E157 /* Build configuration list for PBXNativeTarget "GameNightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F460F62904728C0032E157 /* Debug */,
+				21F460F72904728C0032E157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F460F82904728C0032E157 /* Build configuration list for PBXNativeTarget "GameNightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F460F92904728C0032E157 /* Debug */,
+				21F460FA2904728C0032E157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21F460C02904728A0032E157 /* Project object */;
+}

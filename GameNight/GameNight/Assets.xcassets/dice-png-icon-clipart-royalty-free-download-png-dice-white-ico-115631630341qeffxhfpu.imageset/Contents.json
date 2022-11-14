@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "dice-png-icon-clipart-royalty-free-download-png-dice-white-ico-115631630341qeffxhfpu.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
