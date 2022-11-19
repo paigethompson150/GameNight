@@ -26,6 +26,7 @@ class GameDetailsViewController: UIViewController {
         print(gameName as! String)
         navItem.title = gameName
         gameImage.af_setImage(withURL: URL(string: imageLink as! String)!)
+        gameImage.setShadow()
         descriptionView.text = gameDescription
         descriptionView.textContainer.maximumNumberOfLines = 10
     }

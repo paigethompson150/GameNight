@@ -67,6 +67,7 @@ class GameMeetUpTableViewCell: UITableViewCell {
                     } else if let imageData = imageData {
                         let image = UIImage(data:imageData)
                         self.profileImageView.image = image
+                        self.profileImageView.setShadow()
                     }
                 }
             }

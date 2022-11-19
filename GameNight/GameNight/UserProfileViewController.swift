@@ -109,11 +109,15 @@ extension UIImageView {
         //border
         self.layer.borderWidth = 4.0
         self.layer.borderColor = UIColor.white.cgColor
-        //shadow
-        //self.layer.masksToBounds = false
-        //self.layer.shadowColor = UIColor.black.cgColor
-        //self.layer.shadowOffset = CGSize(width: 3, height: 3)
-        //self.layer.shadowOpacity = 1.0
-        //self.layer.shadowRadius = 4.0
+        
+        
+    }
+    
+    func setShadow() {
+        self.layer.masksToBounds = false
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOffset = CGSize(width: 3, height: 3)
+        self.layer.shadowOpacity = 1.0
+        self.layer.shadowRadius = 4.0
     }
 }
