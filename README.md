@@ -5,12 +5,11 @@ GameNight App Design Project - README
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
 4. [Schema](#Schema)
-5. [Week 1 Progress](#Week_1)
-6. [Week 2 Progress](#Week_2)
+5. [Screenshots](#Screenshots)
 
 ## Overview
 ### Description
-GameNight is a social networking app that allows board-game enthusiasts to connect with one another, schedule meetups, and grab information on board games.
+GameNight is a social networking app that allows board-game enthusiasts to connect with one another, schedule meetups, and grab information on board games. This is the final project for my CodePath team, consisting of myself, Lawrence Kwok, and Lester Zhang!
 
 ### App Evaluation
 
@@ -257,13 +256,16 @@ GameNight is a social networking app that allows board-game enthusiasts to conne
    * (Update/PUT): Update user bio
 * Message Screen (nice to have but not necessary)
 
-## Week_1
+## Screenshots
+- Below are some screenshots of the finished project. If we had more time, we would make some tweaking to the UI to make it more accessible and consistent throughout the entire app!
+<img src="Login.png" width=300>
+<img src="Createaccount.png" width=300>
+<img src="Registration.png" width=300
+<img src="Games.png" width=300>
+<img src="Profile.png" width=300>
+<img src="Boardgames.png" width=300>
+<img src="Adventure.png" width=300>
+<img src="Players.png" width=300>
+<img src="PlayerProfile.png" width=300>
 
-![GIF](week_1_progress.gif)
-
-## Week_2 
-
-![GIF](week_2_progress.gif)
-
-## Week_3 
-* Gif to be added soon!
+  
