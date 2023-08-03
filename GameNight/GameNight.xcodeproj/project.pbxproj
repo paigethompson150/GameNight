@@ -156,33 +156,14 @@
 		21F460CA2904728A0032E157 /* GameNight */ = {
 			isa = PBXGroup;
 			children = (
+				CA8889D42A7B44B200121142 /* Models */,
+				CA8889D32A7B44A400121142 /* ViewControllers */,
 				21F460CB2904728A0032E157 /* AppDelegate.swift */,
 				21F460CD2904728A0032E157 /* SceneDelegate.swift */,
 				21F460D12904728A0032E157 /* Main.storyboard */,
 				21F460D62904728C0032E157 /* LaunchScreen.storyboard */,
 				21F460D42904728C0032E157 /* Assets.xcassets */,
 				21F460D92904728C0032E157 /* Info.plist */,
-				21C56A942920109D0084B92A /* AddGameSessionViewController.swift */,
-				21C56A912920109D0084B92A /* DetailsGameMeetUpTableViewCell.swift */,
-				21C56A932920109D0084B92A /* DetailsGameMeetUpViewController.swift */,
-				21C56A922920109D0084B92A /* GameMeetUpTableViewCell.swift */,
-				28AD23472904BD6000FC37B8 /* GameMeetUpsViewController.swift */,
-				28AD234B2904BD8700FC37B8 /* BoardGamesViewController.swift */,
-				289AD6252907973A006A0980 /* RegistrationViewController.swift */,
-				2808F340290CD19F00BEFFE6 /* RegistrationCompleteViewController.swift */,
-				286536B6290DA74B00C4457B /* ForgotPasswordViewController.swift */,
-				282B2650290DB1EA00D183E3 /* ForgotPasswordConfirmationViewController.swift */,
-				CAE8CBB62905B1F70096521C /* LoginViewController.swift */,
-				28AD234D2904BDA400FC37B8 /* PlayersViewController.swift */,
-				CA419104291DC08400C60E73 /* PlayerDetailsViewController.swift */,
-				CABAB4F3291955D500B463A7 /* PlayerCollectionViewCell.swift */,
-				28AD23492904BD7500FC37B8 /* UserProfileViewController.swift */,
-				280C050F2916F952007907C5 /* UserEditProfileViewController.swift */,
-				21C56A7B29200D8B0084B92A /* CategoriesTableViewController.swift */,
-				21C56A7D29200D8B0084B92A /* categoryData.swift */,
-				21C56A7C29200D8B0084B92A /* CategoryGridController.swift */,
-				21C56A7E29200D8B0084B92A /* GameCollectionViewCell.swift */,
-				21C56A7F29200D8B0084B92A /* GameDetailsViewController.swift */,
 			);
 			path = GameNight;
 			sourceTree = "<group>";
@@ -215,6 +196,81 @@
 				5140518C3197A9E108B8FA7B /* Pods-GameNightTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA8889D32A7B44A400121142 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA8889D92A7B453F00121142 /* Users */,
+				CA8889D82A7B453500121142 /* Games */,
+				CA8889D72A7B450C00121142 /* Registration */,
+				CA8889D62A7B450800121142 /* Meetups */,
+				CA8889D52A7B44FF00121142 /* Login */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CA8889D42A7B44B200121142 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				21C56A7D29200D8B0084B92A /* categoryData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA8889D52A7B44FF00121142 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8CBB62905B1F70096521C /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CA8889D62A7B450800121142 /* Meetups */ = {
+			isa = PBXGroup;
+			children = (
+				21C56A912920109D0084B92A /* DetailsGameMeetUpTableViewCell.swift */,
+				21C56A922920109D0084B92A /* GameMeetUpTableViewCell.swift */,
+				21C56A932920109D0084B92A /* DetailsGameMeetUpViewController.swift */,
+				21C56A942920109D0084B92A /* AddGameSessionViewController.swift */,
+				28AD23472904BD6000FC37B8 /* GameMeetUpsViewController.swift */,
+				21C56A7E29200D8B0084B92A /* GameCollectionViewCell.swift */,
+				21C56A7F29200D8B0084B92A /* GameDetailsViewController.swift */,
+			);
+			path = Meetups;
+			sourceTree = "<group>";
+		};
+		CA8889D72A7B450C00121142 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				289AD6252907973A006A0980 /* RegistrationViewController.swift */,
+				2808F340290CD19F00BEFFE6 /* RegistrationCompleteViewController.swift */,
+				282B2650290DB1EA00D183E3 /* ForgotPasswordConfirmationViewController.swift */,
+				286536B6290DA74B00C4457B /* ForgotPasswordViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		CA8889D82A7B453500121142 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				28AD234B2904BD8700FC37B8 /* BoardGamesViewController.swift */,
+				21C56A7C29200D8B0084B92A /* CategoryGridController.swift */,
+				21C56A7B29200D8B0084B92A /* CategoriesTableViewController.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		CA8889D92A7B453F00121142 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				CA419104291DC08400C60E73 /* PlayerDetailsViewController.swift */,
+				28AD234D2904BDA400FC37B8 /* PlayersViewController.swift */,
+				28AD23492904BD7500FC37B8 /* UserProfileViewController.swift */,
+				CABAB4F3291955D500B463A7 /* PlayerCollectionViewCell.swift */,
+				280C050F2916F952007907C5 /* UserEditProfileViewController.swift */,
+			);
+			path = Users;
 			sourceTree = "<group>";
 		};
 		D6B85587B60D8A5D90C96026 /* Frameworks */ = {
